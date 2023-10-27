@@ -16,7 +16,11 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 
 h1,
 h2,
@@ -59,7 +63,6 @@ ol {
   font-weight: 700;
   line-height: normal;
   cursor: pointer;
-  margin: 2px;
 }
 
 .button:active {
@@ -76,10 +79,9 @@ ol {
 }
 
 .content {
-  margin: 133px 30px;
   display: flex;
+  margin: 133px 30px;
   gap: 30px;
-  justify-content: flex-end;
   align-items: flex-end;
   min-width: 1140px;
   min-height: 534px;
